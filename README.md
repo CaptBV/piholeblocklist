@@ -5,7 +5,8 @@ This is a Pi-hole blocklist.
 <br> It is derived from this [blocklist](https://download.dnscrypt.info/blocklists/domains/mybase.txt). All credits to [DNScrypt](https://dnscrypt.info).
 <br> It is derived from this [blocklist](https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt). All credits to [BarbBlock](https://paulgb.github.io/BarbBlock).
 
-spootle's blocklist contains 3 invalid domains.
+These blocklists contain some invalid domains. 
+spootle's blocklist e.g. contains 3 invalid domains.
 <br> This results in following error messages when updating Pi-hole ```pihole -g```:
 <br>
 ```[i] Target: https://codeberg.org/spootle/blocklist/raw/branch/master/blocklist.txt
@@ -16,7 +17,7 @@ spootle's blocklist contains 3 invalid domains.
       - <metaproperty="og:site"content="gameindustry.eu">
       - [update21.11.2020,22:47:56]<br>
 ```
-This list merely removes the 3 invalid domains.
+The ```blocklist-valid-domains```-file is merely a curated list that does not contain these invalid domains.
 <br>
 Method:
 <br>

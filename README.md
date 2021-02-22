@@ -18,7 +18,7 @@ spootle's blocklist e.g. contains 3 invalid domains.
       - [update21.11.2020,22:47:56]<br>
 ```
 The ```blocklist-valid-domains```-file is merely a curated list that does not contain these invalid domains.
-<br>
+
 Method:
 <br>
 ```wget -q -O- https://codeberg.org/spootle/blocklist/raw/branch/master/blocklist.txt |grep -v \< >> blocklist-valid-domains```

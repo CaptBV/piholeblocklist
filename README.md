@@ -21,7 +21,6 @@ This list merely removes the 3 invalid domains.
 Method:
 <br>
 ```wget -q -O- https://codeberg.org/spootle/blocklist/raw/branch/master/blocklist.txt |grep -v \< >> blocklist-valid-domains```
-```wget -q -O- https://download.dnscrypt.info/blocklists/domains/mybase.txt |grep -v ^*.|grep -v ^$|grep -v ^# >> blocklist-valid-domains```
-```wget -q -O- https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt >> blocklist-valid-domains```
-
-
+<br>```wget -q -O- https://download.dnscrypt.info/blocklists/domains/mybase.txt |grep -v ^*.|grep -v ^$|grep -v ^# >> blocklist-valid-domains```
+<br>```wget -q -O- https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt >> blocklist-valid-domains```
+<br>

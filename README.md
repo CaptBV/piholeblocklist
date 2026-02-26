@@ -21,7 +21,7 @@ The ```blocklist-valid-domains```-file is merely a curated list that does not co
 
 Method:
 <br>
-```wget -q -O- https://codeberg.org/spootle/blocklist/raw/branch/master/blocklist.txt |grep -v \< >> blocklist-valid-domains```
+```wget -q -O- https://codeberg.org/spootle/blocklist/raw/branch/master/blocklist.txt |sed 's/#IBMSilverpop-Advertising//g'|grep -v \< >> blocklist-valid-domains```
 <br>```wget -q -O- https://download.dnscrypt.info/blocklists/domains/mybase.txt |grep -v ^*.|grep -v ^$|grep -v ^# >> blocklist-valid-domains```
 <br>```wget -q -O- https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt >> blocklist-valid-domains```
 <br>
